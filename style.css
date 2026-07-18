@@ -17,6 +17,7 @@ html {
   background-repeat: no-repeat, no-repeat;
   background-size: cover, cover;
   background-position: center, center;
+  background-attachment: fixed, fixed;
   animation: rotateAngle 40s linear infinite;
 }
 
@@ -39,24 +40,13 @@ img {
   margin: 0 auto 20px auto;
 }
 
-h1 {
-  color: blue;
-}
-
-p {
-  color: rgb(149, 53, 158);
-}
-
-div {
-  color: black;
-  font-size: 30px;
-  font-family: "Lucida Console", monospace;
-}
-
 .links {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 a {
@@ -72,15 +62,14 @@ a {
 
 a:hover {
   background-color: rgb(255, 255, 255);
-  border-radius: 32px;
   text-decoration: underline;
 }
 
 @media (max-width: 600px) {
+  html {
+    background-attachment: scroll, scroll;
+  }
   a {
     font-size: 16px;
-  }
-  div {
-    font-size: 24px;
   }
 }
