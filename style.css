@@ -5,20 +5,23 @@
 }
 
 html, body {
-  height: 100%;
+  height: auto;
+  min-height: 100%;
   margin: 0;
 }
 
-body {
-  min-height: 100vh;
+html {
   background: 
     url('overcloud.png'),
     linear-gradient(var(--gradient-angle), rgba(155, 42, 151, 1) 0%, rgba(217, 65, 154, 1) 27%, rgba(250, 120, 120, 1) 54%, rgba(255, 176, 97, 1) 83%, rgba(237, 196, 83, 1) 100%);
   background-repeat: no-repeat, no-repeat;
   background-size: cover, cover;
   background-position: center, center;
-  background-attachment: fixed, fixed;
-  animation: rotateAngle 10s linear infinite;
+  animation: rotateAngle 40s linear infinite;
+}
+
+body {
+  min-height: 100vh;
   text-align: center;
   box-sizing: border-box;
   padding: 20px;
