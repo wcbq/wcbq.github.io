@@ -67,8 +67,8 @@ a:hover {
 
 @media (max-width: 600px) {
   html {
-    background-size: 200%, cover;
-    background-attachment: scroll, scroll;
+    background-size: 200%, 200%;
+    background-attachment: fixed, fixed;
   }
   a {
     font-size: 16px;
