@@ -15,7 +15,7 @@ html {
     url('overcloud.png'),
     linear-gradient(var(--gradient-angle), rgba(155, 42, 151, 1) 0%, rgba(217, 65, 154, 1) 27%, rgba(250, 120, 120, 1) 54%, rgba(255, 176, 97, 1) 83%, rgba(237, 196, 83, 1) 100%);
   background-repeat: no-repeat, no-repeat;
-  background-size: cover, cover;
+  background-size: 180%, cover;
   background-position: center, center;
   background-attachment: fixed, fixed;
   animation: rotateAngle 40s linear infinite;
@@ -67,6 +67,7 @@ a:hover {
 
 @media (max-width: 600px) {
   html {
+    background-size: 200%, cover;
     background-attachment: scroll, scroll;
   }
   a {
