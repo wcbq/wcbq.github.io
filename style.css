@@ -18,7 +18,7 @@ html {
   background-size: cover, cover;
   background-position: center, center;
   background-attachment: fixed, fixed;
-  animation: rotateAngle 40s linear infinite;
+  animation: rotateAngle 15s linear infinite;
 }
 
 body {
