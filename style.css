@@ -50,7 +50,7 @@ img {
 }
 
 a {
-  background-color: rgba(random(100, 255), random(100, 255), random(100, 255), 0.574);
+  background-color: rgba(255,255,255, 0.574);
   color: rgb(0, 0, 0);
   font-size: 20px;
   font-family: "Lucida Console", monospace;
@@ -61,7 +61,7 @@ a {
 }
 
 a:hover {
-  background-color: rgb(random(100, 255), random(100, 255), random(100, 255));
+  background-color: rgb(255,255,255);
   text-decoration: underline;
 }
 
